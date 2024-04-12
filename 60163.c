@@ -1,0 +1,1 @@
+static void goodB2G2() size_t data ; data = 0; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = strtoul ( inputBuffer , NULL , 0 ); if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; if ( data > wcslen ( HELLO_STRING ) && data < 100 )  

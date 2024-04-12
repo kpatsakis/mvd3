@@ -1,0 +1,1 @@
+void CWE121_Stack_Based_Buffer_Overflow__CWE805_int_declare_memcpy_14_bad() int * data ; int dataBadBuffer [ 50 ] ; if ( globalFive == 5 )  data = dataBadBuffer; int source [ 100 ] = { 0 } ; memcpy ( data , source , 100 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

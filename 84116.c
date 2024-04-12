@@ -1,0 +1,1 @@
+static void goodG2B() vector < wchar_t * > dataVector ; goodG2BSink ( dataVector ); void goodG2BSink(vector<wchar_t *> dataVector) wchar_t * data = dataVector [ 2 ] ; goodG2BVaSink ( data , data ); static void goodG2BVaSink(wchar_t * data, ...) wchar_t dest [ 100 ] = L "" va_list args ; _vsnwprintf ( dest , 100 - 1 , data , args ); 

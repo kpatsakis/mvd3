@@ -1,0 +1,1 @@
+static void goodB2G() int * data ; data = ( int * ) calloc ( 1 , sizeof ( int ) ); myUnion . unionFirst = data; int * data = myUnion . unionSecond ; if ( data != NULL )  data [ 0 ] = 5; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

@@ -1,0 +1,1 @@
+void CWE789_Uncontrolled_Mem_Alloc__malloc_wchar_t_rand_11_bad() size_t data ; data = 0; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = rand ( ); if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; if ( data > wcslen ( HELLO_STRING ) )  

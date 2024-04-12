@@ -1,0 +1,1 @@
+static void goodB2G() int64_t * data ; data = NULL; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = ( int64_t * ) calloc ( 100 , sizeof ( int64_t ) ); data = ( int64_t * ) calloc ( 100 , sizeof ( int64_t ) ); if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; free ( data ); 

@@ -1,0 +1,1 @@
+void CWE789_Uncontrolled_Mem_Alloc__new_wchar_t_rand_81_goodB2G::action(size_t data) const wchar_t * myString ; if ( data > wcslen ( HELLO_STRING ) && data < 100 )  myString = new wchar_t [ data ]; wcscpy ( myString , HELLO_STRING ); printWLine ( myString ); void printWLine (const wchar_t * line) if ( line != NULL )  wprintf ( L "%ls\n" , line ) delete [ ] myString 

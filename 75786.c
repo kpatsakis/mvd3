@@ -1,0 +1,1 @@
+char *svn_relpath_join(const char *base,const char *component,apr_pool_t *pool) apr_size_t blen = strlen ( base ) ; apr_size_t clen = strlen ( component ) ; char * path ; if ( blen == 0 )  if ( clen == 0 )  path = ( apr_palloc ( pool , blen + 1 + clen + 1 ) ); memcpy ( path , base , blen ); path [ blen ] = 47; memcpy ( ( path + blen + 1 ) , component , clen + 1 ); return path ; 

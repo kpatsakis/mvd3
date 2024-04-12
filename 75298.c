@@ -1,0 +1,1 @@
+static void goodG2B() int h , j ; char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; for(h = 0; h < 1; h++) FILE * pFile ; pFile = fopen ( "passwords.txt" , "r" ); if ( pFile != NULL )  if ( fgets ( data , 100 , pFile ) == NULL )  data [ 0 ] = '\0'; 

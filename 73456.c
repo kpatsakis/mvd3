@@ -1,0 +1,1 @@
+void bad() int64_t * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = new int64_t if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; free ( data ); 

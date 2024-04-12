@@ -1,0 +1,1 @@
+void bad() int * data ; data = NULL; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = NULL; data = ( int * ) realloc ( data , 100 * sizeof ( int ) ); delete data free ( data ); 

@@ -1,0 +1,1 @@
+static void goodG2B() int h ; char * data ; char dataBuffer [ FILENAME_MAX ] = BASEPATH ; data = dataBuffer; for(h = 0; h < 1; h++) strcat ( data , "file.txt" ); pFile = FOPEN ( data , "wb+" ); if ( pFile != NULL )  fclose ( pFile ); 

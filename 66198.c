@@ -1,0 +1,1 @@
+static void goodB2G1() TwoIntsClass * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( TwoIntsClass * ) calloc ( 100 , sizeof ( TwoIntsClass ) ); if ( staticReturnsFalse ( ) )  static int staticReturnsFalse() return 0 ; free ( data ); 

@@ -1,0 +1,1 @@
+int ffio_read_partial(AVIOContext *s,unsigned char *buf,int size) int len ; if ( size < 0 )  if ( s -> read_packet && s -> write_flag )  len = ( s -> buf_end - s -> buf_ptr ); if ( len == 0 )  s -> buf_end = s -> buf_ptr = s -> buffer; len = ( s -> buf_end - s -> buf_ptr ); if ( len > size )  len = size; memcpy ( buf , ( s -> buf_ptr ) , len ); 

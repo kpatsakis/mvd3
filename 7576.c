@@ -1,0 +1,1 @@
+static void goodB2G1() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; size_t dataLen = strlen ( data ) ; strncat ( data + dataLen , environment , 100 - dataLen - 1 ); goodB2G1VaSinkG ( data , data ); static void goodB2G1VaSinkG(char * data, ...) va_start ( args , data ); 

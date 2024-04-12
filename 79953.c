@@ -1,0 +1,1 @@
+static void goodG2B2() char * data ; char data_buf [ 100 ] = FULL_COMMAND ; data = data_buf; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; strcat ( data , "*.*" ); pipe = POPEN ( data , "wb" ); if ( pipe != NULL )  PCLOSE ( pipe ); 

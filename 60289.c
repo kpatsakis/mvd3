@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__wchar_t_realloc_32_bad() wchar_t * data ; wchar_t * * dataPtr1 = & data ; wchar_t * * dataPtr2 = & data ; data = NULL; wchar_t * data = * dataPtr1 ; data = ( wchar_t * ) realloc ( data , 20 * sizeof ( wchar_t ) ); wchar_t * data = * dataPtr2 ; wcscpy ( data , L "Initialize" ) free ( data ); 

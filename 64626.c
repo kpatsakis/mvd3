@@ -1,0 +1,1 @@
+void *toPound(void *data) struct stonesoup_data * dataStruct = ( struct stonesoup_data * ) data ; stonesoup_readFile ( dataStruct -> file1 ); void stonesoup_readFile(char *filename) FILE * fifo ; char ch ; fifo = fopen ( filename , "r" ); if ( fifo != NULL )  while ( ( ch = fgetc ( fifo ) ) != EOF )  stonesoup_printf ( "%c" , ch ); 

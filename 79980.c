@@ -1,0 +1,1 @@
+static void goodB2G() int count ; count = - 1; while ( 1 )  count = RAND32 ( ); while ( 1 )  const char * filename = "output_good.txt" ; if ( count > 0 && count <= 20 )  pFile = fopen ( filename , "w+" ); if ( pFile )  fclose ( pFile ); 

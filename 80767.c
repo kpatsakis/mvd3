@@ -1,0 +1,1 @@
+static void goodB2G1() long * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = ( long * ) calloc ( 100 , sizeof ( long ) ); if ( globalReturnsFalse ( ) )  int globalReturnsFalse() return 0 ; free ( data ); 

@@ -1,0 +1,1 @@
+static void goodG2B1() char * data ; data = NULL; data = goodG2B1Source ( data ); char * goodG2B1Source(char * data) if ( goodG2B1Global )  data = new char [ 100 ]; memset ( data , 'A' , 100 - 1 ); data [ 100 - 1 ] = '\0'; return data ; 

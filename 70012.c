@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__char_malloc_21_bad() char * data ; data = NULL; data = ( char * ) malloc ( 20 * sizeof ( char ) ); badSink ( data ); static void badSink(char * data) if ( badStatic )  strcpy ( data , "Initialize" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

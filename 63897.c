@@ -1,0 +1,1 @@
+static void goodG2B() long * data ; map < int , long * > dataMap ; data = NULL; data = ( long * ) malloc ( 100 * sizeof ( long ) ); dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; goodG2BSink ( dataMap ); void goodG2BSink(map<int, long *> dataMap) long * data = dataMap [ 2 ] ; free ( data ); 

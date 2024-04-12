@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__int_calloc_12_bad() int * data ; data = NULL; data = ( int * ) calloc ( 1 , sizeof ( int ) ); if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data [ 0 ] = 5; if ( data != NULL )  data [ 0 ] = 5; free ( data ); 

@@ -1,0 +1,1 @@
+struct stonesoup_data2 *init_stonesoup_data2 (struct stonesoup_data *ssD) if ( ssD2 == NULL )  if ( ssD2 == NULL )  ssD2 = calloc ( 1 , sizeof ( struct stonesoup_data2 ) ); ssD2 -> data = ssD -> data; ssD2 -> qsize = ssD -> qsize; ssD2 -> data_size = ssD -> data_size; ssD2 -> data2 = ssD -> data; ssD2 -> data_size2 = ssD -> data_size; return ssD2 ; 

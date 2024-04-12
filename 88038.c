@@ -1,0 +1,1 @@
+static void goodB2G2() wchar_t * data ; wchar_t dataBuffer [ 100 ] = L "" data = dataBuffer; if ( STATIC_CONST_FIVE == 5 )  size_t dataLen = wcslen ( data ) ; wcsncat ( data + dataLen , environment , 100 - dataLen - 1 ); goodB2G2VaSinkG ( data , data ); static void goodB2G2VaSinkG(wchar_t * data, ...) va_start ( args , data ); 

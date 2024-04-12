@@ -1,0 +1,1 @@
+void CWE114_Process_Control__w32_char_relativePath_34_bad() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; strcpy ( data , "winsrv.dll" ); myUnion . unionFirst = data; char * data = myUnion . unionSecond ; hModule = LoadLibraryA ( data ); if ( hModule != NULL )  FreeLibrary ( hModule ); 

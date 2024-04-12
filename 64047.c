@@ -1,0 +1,1 @@
+static void goodB2G() size_t data ; size_t dataArray [ 5 ] ; data = 0; data = rand ( ); dataArray [ 2 ] = data; goodB2GSink ( dataArray ); void goodB2GSink(size_t dataArray[]) size_t data = dataArray [ 2 ] ; if ( data > strlen ( HELLO_STRING ) && data < 100 )  

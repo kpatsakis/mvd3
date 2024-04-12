@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; char dataBuffer [ FILENAME_MAX ] = BASEPATH ; data = dataBuffer; strcat ( data , "file.txt" ); baseObject -> action ( data ); void CWE23_Relative_Path_Traversal__char_file_fopen_82_goodG2B::action(char * data) pFile = FOPEN ( data , "wb+" ); if ( pFile != NULL )  fclose ( pFile ); 

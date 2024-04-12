@@ -1,0 +1,1 @@
+void bad() long * data ; data = NULL; data = NULL; data = ( long * ) realloc ( data , 100 * sizeof ( long ) ); badSink_b ( data ); void badSink_b(long * data) badSink_c ( data ); void badSink_c(long * data) delete data 

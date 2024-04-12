@@ -1,0 +1,1 @@
+void bad() vector < int > dataVector ; badSink ( dataVector ); void badSink(vector<int> dataVector) int data = dataVector [ 2 ] ; int i ; int * buffer = ( int * ) malloc ( 10 * sizeof ( int ) ) ; for (i = 0; i < 10; i++) buffer [ i ] = 0; if ( data >= 0 )  buffer [ data ] = 1; free ( buffer ); 

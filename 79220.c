@@ -1,0 +1,1 @@
+void CWE617_Reachable_Assertion__fgets_61_bad() int data ; data = - 1; data = CWE617_Reachable_Assertion__fgets_61b_badSource ( data ); int CWE617_Reachable_Assertion__fgets_61b_badSource(int data) char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = atoi ( inputBuffer ); return data ; assert ( data > ASSERT_VALUE ); 

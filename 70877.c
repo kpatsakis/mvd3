@@ -1,0 +1,1 @@
+void CWE127_Buffer_Underread__malloc_wchar_t_loop_08_bad() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; wchar_t * dataBuffer = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ) ; data = dataBuffer - 8; dest [ i ] = data [ i ]; printWLine ( dest ); void printWLine (const wchar_t * line) if ( line != NULL )  wprintf ( L "%ls\n" , line ) 

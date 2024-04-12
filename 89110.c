@@ -1,0 +1,1 @@
+static void scsi_dma_restart_bh(void *opaque) SCSIRequest * req , * next ; if ( req -> retry )  req -> retry = false; switch ( req -> cmd . mode )  scsi_req_enqueue ( req ); int32_t scsi_req_enqueue(SCSIRequest *req) scsi_req_unref ( req ); void scsi_req_unref(SCSIRequest *req) assert ( req -> refcount > 0 ); 

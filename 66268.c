@@ -1,0 +1,1 @@
+static void goodG2B() vector < int > dataVector ; goodG2BSink ( dataVector ); void goodG2BSink(vector<int> dataVector) int data = dataVector [ 2 ] ; int * intPointer ; intPointer = ( int * ) malloc ( data * sizeof ( int ) ); intPointer [ i ] = 0; printIntLine ( intPointer [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( intPointer ); 

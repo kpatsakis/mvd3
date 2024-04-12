@@ -1,0 +1,1 @@
+static void goodB2G() int * data ; data = NULL; data = ( int * ) malloc ( 1 * sizeof ( int ) ); if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; if ( data != NULL )  data [ 0 ] = 5; if ( data != NULL )  data [ 0 ] = 5; free ( data ); 

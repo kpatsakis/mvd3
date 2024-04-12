@@ -1,0 +1,1 @@
+static void goodG2B() long * data ; long * dataArray [ 5 ] ; data = NULL; data = ( long * ) malloc ( 100 * sizeof ( long ) ); dataArray [ 2 ] = data; goodG2BSink ( dataArray ); void goodG2BSink(long * dataArray[]) long * data = dataArray [ 2 ] ; free ( data ); 

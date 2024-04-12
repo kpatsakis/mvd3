@@ -1,0 +1,1 @@
+void bad() wchar_t * data ; wchar_t * & dataRef = data ; data = NULL; wchar_t * dataBuffer = ( wchar_t * ) ALLOCA ( 100 * sizeof ( wchar_t ) ) ; wmemset ( dataBuffer , L 'A' , 100 - 1 dataBuffer [ 100 - 1 ] = L '\0' data = dataBuffer; wchar_t * data = dataRef ; free ( data ); 

@@ -1,0 +1,1 @@
+void bad() TwoIntsClass * data ; data = NULL; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = ( TwoIntsClass * ) calloc ( 100 , sizeof ( TwoIntsClass ) ); data = new TwoIntsClass [ 100 ]; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; free ( data ); 

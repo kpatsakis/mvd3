@@ -1,0 +1,1 @@
+static void good1() if ( globalReturnsFalse ( ) )  int globalReturnsFalse() return 0 ; char dataBuffer [ 100 ] = "" ; char * data = dataBuffer ; if ( fgets ( data , 100 , stdin ) == NULL )  printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); 

@@ -1,0 +1,1 @@
+static void good1() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; char dataBuffer [ 100 ] = "" ; char * data = dataBuffer ; if ( scanf ( "%99s\0" , data ) == EOF )  char dataBuffer [ 100 ] = "" ; char * data = dataBuffer ; if ( scanf ( "%99s\0" , data ) == EOF )  

@@ -1,0 +1,1 @@
+static void goodG2B() wchar_t * data ; wchar_t dataBuffer [ 100 ] = L "" data = dataBuffer; wcscpy ( data , L "C:\\Windows\\System32\\winsrv.dll" ) wchar_t * dataCopy = data ; wchar_t * data = dataCopy ; HMODULE hModule ; hModule = LoadLibraryW ( data ); if ( hModule != NULL )  FreeLibrary ( hModule ); 

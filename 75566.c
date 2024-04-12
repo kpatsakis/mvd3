@@ -1,0 +1,1 @@
+static void goodG2B2() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; strcpy ( data , GOOD_OS_COMMAND ); pipe = POPEN ( data , "wb" ); if ( pipe != NULL )  PCLOSE ( pipe ); 

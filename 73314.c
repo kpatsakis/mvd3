@@ -1,0 +1,1 @@
+static void goodB2G2() int64_t * data ; data = NULL; data = ( int64_t * ) calloc ( 1 , sizeof ( int64_t ) ); goodB2G2Sink ( data ); static void goodB2G2Sink(int64_t * data) if ( goodB2G2Static )  if ( data != NULL )  data [ 0 ] = 5L L free ( data ); 

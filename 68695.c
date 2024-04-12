@@ -1,0 +1,1 @@
+static void goodG2B1() wchar_t * data ; wchar_t dataBuffer [ 100 ] = L "" data = dataBuffer; if ( staticReturnsFalse ( ) )  static int staticReturnsFalse() return 0 ; wcscpy ( data , L "fixedstringtest" ) if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; fwprintf ( stdout , data ); 

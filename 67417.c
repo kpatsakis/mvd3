@@ -1,0 +1,1 @@
+static void goodB2G2() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; size_t dataLen = strlen ( data ) ; if ( 100 - dataLen > 1 )  if ( fgets ( data + dataLen , ( int ) ( 100 - dataLen ) , pFile ) == NULL )  data [ dataLen ] = '\0'; goodB2G2_vasink ( data , data ); static void goodB2G2_vasink(char * data, ...) va_start ( args , data ); 

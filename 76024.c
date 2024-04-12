@@ -1,0 +1,1 @@
+void CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_12_bad() char * data ; char dataBuffer [ 100 ] ; data = dataBuffer; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; memset ( data , 'A' , 50 - 1 ); data [ 50 - 1 ] = '\0'; char dest [ 50 ] = "" ; strcat ( dest , data ); 

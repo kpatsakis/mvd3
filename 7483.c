@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; char dataBuffer [ FILENAME_MAX ] = "" ; data = dataBuffer; strcat ( data , "c:\\temp\\file.txt" ); myStruct . structFirst = data; goodG2BSink ( myStruct ); void goodG2BSink(structType myStruct) char * data = myStruct . structFirst ; fileDesc = OPEN ( data , O_RDWR | O_CREAT , S_IREAD | S_IWRITE ); if ( fileDesc != - 1 )  CLOSE ( fileDesc ); 

@@ -1,0 +1,1 @@
+static long file_ctrl(BIO *b,int cmd,long num,void *ptr) char p [ 4 ] ; switch ( cmd )  if ( num & 0x08 )  if ( num & 0x02 && num & 0x04 )  if ( num & 0x04 )  if ( num & 0x02 )  fp = fopen ( ptr , p ); if ( fp == ( ( void * ) 0 ) )  b -> ptr = fp; b -> init = 1; BIO_clear_flags ( b , 0 ); 

@@ -1,0 +1,1 @@
+static void goodB2G1() twoIntsStruct * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = ( twoIntsStruct * ) calloc ( 100 , sizeof ( twoIntsStruct ) ); data [ 0 ] . intOne = 0; data [ 0 ] . intTwo = 0; if ( globalReturnsFalse ( ) )  int globalReturnsFalse() return 0 ; free ( data ); 

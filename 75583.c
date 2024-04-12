@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_11_bad() char * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = ( char * ) malloc ( 10 * sizeof ( char ) ); char source [ 10 + 1 ] = SRC_STRING ; strcpy ( data , source ); free ( data ); 

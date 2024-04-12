@@ -1,0 +1,1 @@
+void bad() vector < char * > dataVector ; badSink ( dataVector ); void badSink(vector<char *> dataVector) char * data = dataVector [ 2 ] ; strcpy ( data , "Initialize" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

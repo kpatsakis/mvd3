@@ -1,0 +1,1 @@
+static void goodG2B() int * data ; int * * dataPtr2 = & data ; data = NULL; data = ( int * ) malloc ( 100 * sizeof ( int ) ); int * data = * dataPtr2 ; int source [ 100 ] = { 0 } ; memcpy ( data , source , 100 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

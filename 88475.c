@@ -1,0 +1,1 @@
+static void goodB2G2() int64_t * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = ( int64_t * ) malloc ( 100 * sizeof ( int64_t ) ); size_t i ; for(i = 0; i < 100; i++) data [ i ] = 5L L free ( data ); 

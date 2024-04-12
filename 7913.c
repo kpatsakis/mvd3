@@ -1,0 +1,1 @@
+void CWE401_Memory_Leak__wchar_t_realloc_32_bad() wchar_t * data ; wchar_t * * dataPtr1 = & data ; data = NULL; wchar_t * data = * dataPtr1 ; data = ( wchar_t * ) realloc ( data , 100 * sizeof ( wchar_t ) ); wcscpy ( data , L "A String" ) printWLine ( data ); void printWLine (const wchar_t * line) if ( line != NULL )  wprintf ( L "%ls\n" , line ) * dataPtr1 = data; 

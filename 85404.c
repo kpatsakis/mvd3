@@ -1,0 +1,1 @@
+void bad() char * data ; data = ( char * ) malloc ( 20 * sizeof ( char ) ); baseObject -> action ( data ); void CWE690_NULL_Deref_From_Return__char_malloc_82_bad::action(char * data) strcpy ( data , "Initialize" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

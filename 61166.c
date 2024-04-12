@@ -1,0 +1,1 @@
+static void goodB2G2() long * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( long * ) malloc ( 100 * sizeof ( long ) ); size_t i ; for(i = 0; i < 100; i++) data [ i ] = 5L; free ( data ); 

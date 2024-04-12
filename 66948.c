@@ -1,0 +1,1 @@
+static void goodG2B2() char * data ; char dataBuffer [ 100 ] ; data = dataBuffer; data = goodG2B2Source ( data ); static char * goodG2B2Source(char * data) if ( goodG2B2Static )  memset ( data , 'A' , 50 - 1 ); data [ 50 - 1 ] = '\0'; return data ; char dest [ 50 ] = "" ; strcat ( dest , data ); 

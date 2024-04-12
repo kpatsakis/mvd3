@@ -1,0 +1,1 @@
+static pvscsi_reset(DeviceState *dev) PCIDevice * d = PCI_DEVICE ( dev ) ; PVSCSIState * s = PVSCSI ( d ) ; pvscsi_reset_adapter ( s ); static pvscsi_reset_adapter(PVSCSIState *s) s -> resetting ++; s -> resetting --; assert ( QTAILQ_EMPTY ( & s -> pending_queue ) ); 

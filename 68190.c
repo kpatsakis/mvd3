@@ -1,0 +1,1 @@
+static void goodG2B() FILE * data ; FILE * dataArray [ 5 ] ; data = NULL; data = fopen ( "GoodSource_fopen.txt" , "w+" ); dataArray [ 2 ] = data; CWE675_Duplicate_Operations_on_Resource__freopen_66b_goodG2BSink ( dataArray ); void CWE675_Duplicate_Operations_on_Resource__freopen_66b_goodG2BSink(FILE * dataArray[]) FILE * data = dataArray [ 2 ] ; fclose ( data ); 

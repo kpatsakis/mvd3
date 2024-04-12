@@ -1,0 +1,1 @@
+ main(int argc, char **argv) int n ; if ( argc != 2 )  n = strtoul ( argv [ 1 ] , 0 , 10 ); test ( n );  test(unsigned int n) int * buf , i ; buf = malloc ( n * sizeof * buf ); if ( ! buf )  for(i = 0; i < n; i++) buf [ i ] = i; free ( buf ); 

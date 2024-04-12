@@ -1,0 +1,1 @@
+ main(int argc, char **argv) char * userstr ; if ( argc > 1 )  userstr = argv [ 1 ]; test ( userstr );  test(char *str) char * buf ; buf = malloc ( MAXSIZE ); if ( ! buf )  snprintf ( buf , MAXSIZE , "<%s>" , str ); free ( buf ); 

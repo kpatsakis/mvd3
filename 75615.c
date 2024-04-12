@@ -1,0 +1,1 @@
+static void goodG2B() wchar_t * password ; password = L "" if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; password = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); wcscpy ( password , L "Password1234!" ) password = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); wcscpy ( password , L "Password1234!" ) free ( password ); 

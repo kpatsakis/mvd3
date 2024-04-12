@@ -1,0 +1,1 @@
+void bad() twoIntsStruct * data ; data = ( twoIntsStruct * ) calloc ( 100 , sizeof ( twoIntsStruct ) ); badSink_b ( data ); void badSink_b(twoIntsStruct * data) badSink_c ( data ); void badSink_c(twoIntsStruct * data) badSink_d ( data ); void badSink_d(twoIntsStruct * data) delete [ ] data 

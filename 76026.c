@@ -1,0 +1,1 @@
+static void goodG2B() size_t data ; size_t * dataPtr2 = & data ; data = 0; data = 20; size_t data = * dataPtr2 ; char * myString ; if ( data > strlen ( HELLO_STRING ) )  myString = new char [ data ]; strcpy ( myString , HELLO_STRING ); printLine ( myString ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); delete [ ] myString 

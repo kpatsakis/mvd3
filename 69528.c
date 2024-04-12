@@ -1,0 +1,1 @@
+static void goodB2G() list < size_t > dataList ; goodB2GSink ( dataList ); void goodB2GSink(list<size_t> dataList) size_t data = dataList . back ( ) ; char * myString ; if ( data > strlen ( HELLO_STRING ) && data < 100 )  myString = ( char * ) malloc ( data * sizeof ( char ) ); strcpy ( myString , HELLO_STRING ); free ( myString ); 

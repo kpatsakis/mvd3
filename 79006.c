@@ -1,0 +1,1 @@
+static void goodG2B() int h , j ; size_t data ; data = 0; for(h = 0; h < 1; h++) data = 20; for(j = 0; j < 1; j++) char * myString ; if ( data > strlen ( HELLO_STRING ) )  myString = ( char * ) malloc ( data * sizeof ( char ) ); strcpy ( myString , HELLO_STRING ); free ( myString ); 

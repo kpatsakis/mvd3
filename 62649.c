@@ -1,0 +1,1 @@
+static void goodB2G2() int data ; data = - 1; data = RAND32 ( ); goodB2G2Sink ( data ); static void goodB2G2Sink(int data) if ( goodB2G2Static )  int i ; int * buffer = ( int * ) malloc ( 10 * sizeof ( int ) ) ; for (i = 0; i < 10; i++) buffer [ i ] = 0; if ( data >= 0 && data < ( 10 ) )  buffer [ data ] = 1; free ( buffer ); 

@@ -1,0 +1,1 @@
+void bad() char * dataBadBuffer = ( char * ) malloc ( sizeof ( OneIntClass ) ) ; data = dataBadBuffer; TwoIntsClass * classTwo = new ( data ) TwoIntsClass classTwo -> intOne = 5; classTwo -> intTwo = 10; printIntLine ( classTwo -> intOne ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

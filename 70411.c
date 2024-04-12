@@ -1,0 +1,1 @@
+static void goodB2G() long * data ; long * * dataPtr1 = & data ; long * * dataPtr2 = & data ; data = NULL; long * data = * dataPtr1 ; data = ( long * ) realloc ( data , 1 * sizeof ( long ) ); long * data = * dataPtr2 ; if ( data != NULL )  data [ 0 ] = 5L; free ( data ); 

@@ -1,0 +1,1 @@
+static void goodG2B1() char * data ; data = NULL; if ( globalReturnsFalse ( ) )  int globalReturnsFalse() return 0 ; data = ( char * ) malloc ( 100 * sizeof ( char ) ); if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; free ( data ); 

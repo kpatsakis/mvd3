@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; data = NULL; data = ( char * ) malloc ( 100 * sizeof ( char ) ); goodB2GSink_b ( data ); void goodB2GSink_b(char * data) goodB2GSink_c ( data ); void goodB2GSink_c(char * data) goodB2GSink_d ( data ); void goodB2GSink_d(char * data) free ( data ); 

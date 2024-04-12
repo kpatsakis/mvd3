@@ -1,0 +1,1 @@
+void CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_08_bad() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; char dest [ DEST_SIZE ] ; int intFive = 5 ; sprintf ( dest , "%s" , intFive ); printLine ( dest ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); 

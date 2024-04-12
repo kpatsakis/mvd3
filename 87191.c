@@ -1,0 +1,1 @@
+void bad() size_t data ; data = rand ( ); size_t dataCopy = data ; size_t data = dataCopy ; if ( data > wcslen ( HELLO_STRING ) )  myString = new wchar_t [ data ]; wcscpy ( myString , HELLO_STRING ); printWLine ( myString ); void printWLine (const wchar_t * line) if ( line != NULL )  wprintf ( L "%ls\n" , line ) delete [ ] myString 

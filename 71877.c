@@ -1,0 +1,1 @@
+void bad() char * data ; char * & dataRef = data ; data = ( char * ) malloc ( 100 * sizeof ( char ) ); data [ 0 ] = '\0'; strcpy ( data , BAD_SOURCE_FIXED_STRING ); char * data = dataRef ; for (; *data != '\0'; data++) if ( * data == SEARCH_CHAR )  free ( data ); 

@@ -1,0 +1,1 @@
+static long file_ctrl(BIO *b,int cmd,long num,void *ptr) switch ( cmd )  b -> shutdown = ( ( int ) num ) & 0x01; b -> ptr = ptr; b -> init = 1; file_free ( b ); static int file_free(BIO *a) if ( a == ( ( void * ) 0 ) )  if ( a -> shutdown )  if ( a -> init && a -> ptr != ( ( void * ) 0 ) )  if ( a -> flags & 0 )  fclose ( ( a -> ptr ) ); 

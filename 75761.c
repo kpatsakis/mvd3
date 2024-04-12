@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; char * * dataPtr1 = & data ; char * * dataPtr2 = & data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; char * data = * dataPtr1 ; strcpy ( data , "15" ); char * data = * dataPtr2 ; if ( sscanf ( data , "%d" , & n ) == 1 )  

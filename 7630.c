@@ -1,0 +1,1 @@
+void CWE401_Memory_Leak__int64_t_realloc_42_bad() int64_t * data ; data = NULL; data = badSource ( data ); static int64_t * badSource(int64_t * data) data = ( int64_t * ) realloc ( data , 100 * sizeof ( int64_t ) ); printLongLongLine ( data [ 0 ] ); void printLongLongLine (int64_t longLongIntNumber) printf ( "%lld\n" , longLongIntNumber ); return data ; 

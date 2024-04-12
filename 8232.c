@@ -1,0 +1,1 @@
+static void goodG2B() size_t data ; data = 0; data = 20; goodG2BSink_b ( data ); void goodG2BSink_b(size_t data) goodG2BSink_c ( data ); void goodG2BSink_c(size_t data) goodG2BSink_d ( data ); void goodG2BSink_d(size_t data) if ( data > strlen ( HELLO_STRING ) )  

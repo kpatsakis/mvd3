@@ -1,0 +1,1 @@
+static void goodG2B() int h , j ; int count ; count = - 1; for(h = 0; h < 1; h++) count = 20; for(j = 0; j < 1; j++) const char * filename = "output_bad.txt" ; pFile = fopen ( filename , "w+" ); for (i = 0; i < (size_t)count; i++) if ( strlen ( SENTENCE ) != fwrite ( SENTENCE , sizeof ( char ) , strlen ( SENTENCE ) , pFile ) )  

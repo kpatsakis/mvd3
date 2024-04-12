@@ -1,0 +1,1 @@
+static void good2() if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; int * data ; int * * pointer = ( int * * ) malloc ( sizeof ( int * ) ) ; data = ( int * ) malloc ( sizeof ( int ) ); * data = 5; * pointer = data; free ( pointer ); 

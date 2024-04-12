@@ -1,0 +1,1 @@
+void CWE416_Use_After_Free__malloc_free_int_08_bad() int * data ; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( int * ) malloc ( 100 * sizeof ( int ) ); data [ i ] = 5; free ( data ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

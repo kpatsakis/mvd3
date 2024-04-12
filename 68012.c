@@ -1,0 +1,1 @@
+static void goodG2B1() wchar_t * data ; wchar_t dataBuffer [ 100 ] = L "" data = dataBuffer; if ( STATIC_CONST_FALSE )  wcscpy ( data , L "fixedstringtest" ) if ( STATIC_CONST_TRUE )  goodG2B1VaSinkB ( data , data ); static void goodG2B1VaSinkB(wchar_t * data, ...) wchar_t dest [ 100 ] = L "" va_list args ; _vsnwprintf ( dest , 100 - 1 , data , args ); 

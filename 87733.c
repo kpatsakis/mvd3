@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; data = new char [ 100 ]; data = goodG2BSource ( data ); static char * goodG2BSource(char * data) memset ( data , 'A' , 50 - 1 ); data [ 50 - 1 ] = '\0'; return data ; char dest [ 50 ] = "" ; memmove ( dest , data , strlen ( data ) * sizeof ( char ) ); dest [ 50 - 1 ] = '\0'; 

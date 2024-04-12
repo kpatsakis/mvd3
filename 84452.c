@@ -1,0 +1,1 @@
+static void goodB2G() twoIntsStruct * data ; structType myStruct ; data = NULL; data = ( twoIntsStruct * ) malloc ( 100 * sizeof ( twoIntsStruct ) ); myStruct . structFirst = data; goodB2GSink ( myStruct ); void goodB2GSink(structType myStruct) twoIntsStruct * data = myStruct . structFirst ; free ( data ); 

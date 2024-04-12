@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__int_calloc_51_bad() int * data ; data = ( int * ) calloc ( 1 , sizeof ( int ) ); CWE690_NULL_Deref_From_Return__int_calloc_51b_badSink ( data ); void CWE690_NULL_Deref_From_Return__int_calloc_51b_badSink(int * data) data [ 0 ] = 5; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

@@ -1,0 +1,1 @@
+static void goodG2B2() size_t data ; data = 0; if ( staticTrue )  data = 20; if ( staticTrue )  wchar_t * myString ; if ( data > wcslen ( HELLO_STRING ) )  myString = ( wchar_t * ) malloc ( data * sizeof ( wchar_t ) ); wcscpy ( myString , HELLO_STRING ); free ( myString ); 

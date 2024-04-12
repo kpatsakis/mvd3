@@ -1,0 +1,1 @@
+gfxFontEntry gfxDWriteFontList::MakePlatformFont(const nsAString& uint16_t int16_t bool const uint8_t* uint32_t aLength) nsresult rv ; nsAutoString uniqueName ; rv = gfxFontUtils :: MakeUniqueUserFontName ( uniqueName ); if ( NS_FAILED ( rv ) )  free ( ( void * ) aFontData ); 

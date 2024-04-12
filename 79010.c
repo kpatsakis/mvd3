@@ -1,0 +1,1 @@
+static void goodG2B1() char * data ; data = NULL; data = goodG2B1Source ( data ); static char * goodG2B1Source(char * data) if ( goodG2B1Static )  data = ( char * ) malloc ( ( 10 + 1 ) * sizeof ( char ) ); return data ; char source [ 10 + 1 ] = SRC_STRING ; strncpy ( data , source , strlen ( source ) + 1 ); free ( data ); 

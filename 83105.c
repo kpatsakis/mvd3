@@ -1,0 +1,1 @@
+void CWE758_Undefined_Behavior__int_pointer_alloca_use_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; int * data ; data = ( int * ) malloc ( sizeof ( int ) ); * data = 5; * pointer = data; int * data = * pointer ; printIntLine ( * data ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

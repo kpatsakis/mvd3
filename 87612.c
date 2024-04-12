@@ -1,0 +1,1 @@
+static void goodG2B1() size_t data ; data = 0; if ( globalReturnsFalse ( ) )  int globalReturnsFalse() return 0 ; data = 20; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; if ( data > strlen ( HELLO_STRING ) )  

@@ -1,0 +1,1 @@
+static void goodB2G() twoIntsStruct * data ; data = NULL; data = goodB2GSource ( data ); static twoIntsStruct * goodB2GSource(twoIntsStruct * data) data = ( twoIntsStruct * ) calloc ( 1 , sizeof ( twoIntsStruct ) ); return data ; if ( data != NULL )  data [ 0 ] . intOne = 1; data [ 0 ] . intTwo = 1; free ( data ); 

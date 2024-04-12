@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__char_calloc_21_bad() char * data ; data = ( char * ) calloc ( 20 , sizeof ( char ) ); badSink ( data ); static void badSink(char * data) strcpy ( data , "Initialize" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

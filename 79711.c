@@ -1,0 +1,1 @@
+void ff_make_absolute_url(char *buf,int size,const char *base,const char *rel) char * sep ; if ( base && strstr ( base , "://" ) && rel [ 0 ] == '/' )  sep = strstr ( buf , "://" ); if ( sep )  sep [ 1 ] = '\0'; sep += 3; sep = strchr ( sep , '/' ); if ( sep )  * sep = '\0'; 

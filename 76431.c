@@ -1,0 +1,1 @@
+static void goodB2G1() int64_t * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = ( int64_t * ) malloc ( 100 * sizeof ( int64_t ) ); if ( globalReturnsFalse ( ) )  int globalReturnsFalse() return 0 ; free ( data ); 

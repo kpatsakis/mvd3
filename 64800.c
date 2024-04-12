@@ -1,0 +1,1 @@
+void bad() TwoIntsClass * data ; structType myStruct ; data = NULL; data = new TwoIntsClass myStruct . structFirst = data; badSink ( myStruct ); void badSink(structType myStruct) TwoIntsClass * data = myStruct . structFirst ; free ( data ); 

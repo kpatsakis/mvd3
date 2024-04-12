@@ -1,0 +1,1 @@
+static void goodG2B() vector < char * > dataVector ; goodG2BSink ( dataVector ); void goodG2BSink(vector<char *> dataVector) char * data = dataVector [ 2 ] ; char source [ 100 ] ; memset ( source , 'C' , 100 - 1 ); source [ 100 - 1 ] = '\0'; strncpy ( data , source , 100 - 1 ); data [ 100 - 1 ] = '\0'; free ( data ); 

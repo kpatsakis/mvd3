@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; data = NULL; data = new char [ 100 ]; data [ 0 ] = '\0'; goodG2BSink ( data ); void goodG2BSink(char * data) char source [ 100 ] ; memset ( source , 'C' , 100 - 1 ); source [ 100 - 1 ] = '\0'; strncat ( data , source , 100 ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); delete [ ] data 

@@ -1,0 +1,1 @@
+static void goodB2G() TwoIntsClass * data ; map < int , TwoIntsClass * > dataMap ; data = NULL; data = ( TwoIntsClass * ) malloc ( 100 * sizeof ( TwoIntsClass ) ); dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; goodB2GSink ( dataMap ); void goodB2GSink(map<int, TwoIntsClass *> dataMap) TwoIntsClass * data = dataMap [ 2 ] ; free ( data ); 

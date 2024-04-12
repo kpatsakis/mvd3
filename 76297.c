@@ -1,0 +1,1 @@
+void CWE606_Unchecked_Loop_Condition__char_console_12_bad() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; strcpy ( data , "15" ); if ( sscanf ( data , "%d" , & n ) == 1 )  if ( sscanf ( data , "%d" , & n ) == 1 )  

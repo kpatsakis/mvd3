@@ -1,0 +1,1 @@
+void dynamic_buffer_underrun_035() int i , loc1 = 0 , loc2 = 0 ; char * * doubleptr = ( char * * ) malloc ( 10 * sizeof ( char * ) ) ; for (i=0;i<10;i++) doubleptr [ i ] = ( char * ) malloc ( 10 * sizeof ( char ) ); if ( loc1 == 0 )  loc1 ++; doubleptr [ loc1 ] [ loc2 ] = 'T'; if ( loc2 == 0 )  loc2 ++; doubleptr [ 0 ] [ loc2 ] = 'T'; for (i=0;i<10;i++) free ( doubleptr [ i ] ); 

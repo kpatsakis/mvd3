@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_32_bad() char * data ; data = ( char * ) malloc ( 50 * sizeof ( char ) ); data [ 0 ] = '\0'; * dataPtr1 = data; SNPRINTF ( data , 100 , "%s" , source ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

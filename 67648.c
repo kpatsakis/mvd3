@@ -1,0 +1,1 @@
+void bad() int i ; int * data ; data = NULL; for(i = 0; i < 1; i++) data = new int [ 50 ]; int source [ 100 ] = { 0 } ; memmove ( data , source , 100 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); delete [ ] data 

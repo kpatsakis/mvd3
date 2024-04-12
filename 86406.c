@@ -1,0 +1,1 @@
+static void goodB2G() FILE * data ; data = NULL; data = fopen ( "file.txt" , "w+" ); CWE690_NULL_Deref_From_Return__fopen_64b_goodB2GSink ( & data ); void CWE690_NULL_Deref_From_Return__fopen_64b_goodB2GSink(void * dataVoidPtr) FILE * * dataPtr = ( FILE * * ) dataVoidPtr ; FILE * data = ( * dataPtr ) ; if ( data != NULL )  fclose ( data ); 

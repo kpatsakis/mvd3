@@ -1,0 +1,1 @@
+static void goodG2B() FILE * data ; data = NULL; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = fopen ( "GoodSource_fopen.txt" , "w+" ); data = fopen ( "GoodSource_fopen.txt" , "w+" ); if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; fclose ( data ); 

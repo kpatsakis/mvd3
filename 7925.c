@@ -1,0 +1,1 @@
+void bad() twoIntsStruct * data ; data = NULL; data = NULL; data = ( twoIntsStruct * ) realloc ( data , 100 * sizeof ( twoIntsStruct ) ); badSink_b ( data ); void badSink_b(twoIntsStruct * data) badSink_c ( data ); void badSink_c(twoIntsStruct * data) delete data 

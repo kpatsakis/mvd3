@@ -1,0 +1,1 @@
+static void goodG2B() list < int > dataList ; goodG2BSink ( dataList ); void goodG2BSink(list<int> dataList) int data = dataList . back ( ) ; size_t i ; int * intPointer ; intPointer = ( int * ) malloc ( data * sizeof ( int ) ); for (i = 0; i < (size_t)data; i++) intPointer [ i ] = 0; free ( intPointer ); 

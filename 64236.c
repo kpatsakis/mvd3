@@ -1,0 +1,1 @@
+static ssize_t tcm_vhost_tpg_show_nexus(struct se_portal_group char *page) struct tcm_vhost_tpg * tpg = container_of ( se_tpg struct tcm_vhost_tpg , se_tpg ) struct tcm_vhost_nexus * tv_nexus ; ssize_t ret ; tv_nexus = tpg -> tpg_nexus; if ( ! tv_nexus )  ret = snprintf ( page , PAGE_SIZE , "%s\n" , tv_nexus -> tvn_se_sess -> se_node_acl -> initiatorname ); return ret ; 

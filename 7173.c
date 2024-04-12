@@ -1,0 +1,1 @@
+void bad() list < size_t > dataList ; badSink ( dataList ); void badSink(list<size_t> dataList) size_t data = dataList . back ( ) ; char * myString ; if ( data > strlen ( HELLO_STRING ) )  myString = new char [ data ]; strcpy ( myString , HELLO_STRING ); printLine ( myString ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); delete [ ] myString 

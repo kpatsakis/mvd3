@@ -1,0 +1,1 @@
+void bad() TwoIntsClass * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = new TwoIntsClass [ 100 ]; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; free ( data ); 

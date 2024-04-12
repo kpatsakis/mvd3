@@ -1,0 +1,1 @@
+static void goodB2G2() wchar_t * data ; data = NULL; data = ( wchar_t * ) calloc ( 20 , sizeof ( wchar_t ) ); if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; if ( data != NULL )  wcscpy ( data , L "Initialize" ) free ( data ); 

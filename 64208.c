@@ -1,0 +1,1 @@
+static void goodG2B() int * data ; data = NULL; data = new int [ 100 ]; goodG2BSink ( data ); void goodG2BSink(int * data) int source [ 100 ] = { 0 } ; memcpy ( data , source , 100 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); delete [ ] data 

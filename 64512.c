@@ -1,0 +1,1 @@
+status_t MPEG4Extractor::readMetaData() if ( mInitCheck != NO_INIT )  uint64_t psshsize = 0 ; for (size_t i = 0; i < mPssh.Length(); i++) psshsize += 20 + mPssh [ i ] . datalen; if ( mPssh [ i ] . datalen > kMAX_ALLOCATION - 20 || psshsize > kMAX_ALLOCATION )  if ( psshsize )  char * buf = ( char * ) malloc ( psshsize ) ; if ( ! buf )  free ( buf ); 

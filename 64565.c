@@ -1,0 +1,1 @@
+nsZipCursor::nsZipCursor(nsZipItem *item, nsZipArchive *aZip, uint8_t* aBuf, uint32_t aBufSize, bool doCRC)    mDoCRC(doCRC) if ( mItem -> Compression ( ) == DEFLATED )  gZlibInit ( & mZs ); nsresult gZlibInit(z_stream *zs) memset ( zs , 0 , sizeof ( z_stream ) ); int zerr = inflateInit2 ( zs , - MAX_WBITS ) ; if ( zerr != Z_OK )  

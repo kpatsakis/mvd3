@@ -1,0 +1,1 @@
+void CWE126_Buffer_Overread__malloc_wchar_t_memmove_21_bad() wchar_t * data ; data = NULL; data = badSource ( data ); static wchar_t * badSource(wchar_t * data) if ( badStatic )  data = ( wchar_t * ) malloc ( 50 * sizeof ( wchar_t ) ); wmemset ( data , L 'A' , 50 - 1 data [ 50 - 1 ] = L '\0' return data ; free ( data ); 

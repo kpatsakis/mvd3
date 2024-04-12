@@ -1,0 +1,1 @@
+void bad() size_t data ; data = 0; char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = strtoul ( inputBuffer , NULL , 0 ); badSink ( & data ); void badSink(size_t * dataPtr) size_t data = * dataPtr ; if ( data > wcslen ( HELLO_STRING ) )  

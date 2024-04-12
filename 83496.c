@@ -1,0 +1,1 @@
+static void good1() if ( STATIC_CONST_FALSE )  int * data ; data = ( int * ) malloc ( sizeof ( int ) ); * data = 5; * pointer = data; int * data = * pointer ; printIntLine ( * data ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__sizeof_double_21_bad() double * data ; data = NULL; data = badSource ( data ); static double * badSource(double * data) if ( badStatic )  data = ( double * ) malloc ( sizeof ( data ) ); * data = 1.7E300; return data ; free ( data ); 

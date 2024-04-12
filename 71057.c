@@ -1,0 +1,1 @@
+void badSink_b(int * data) badSink_c ( data ); void badSink_c(int * data) badSink_d ( data ); void badSink_d(int * data) badSink_e ( data ); void badSink_e(int * data) int source [ 100 ] = { 0 } ; memmove ( data , source , 100 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); delete [ ] data 

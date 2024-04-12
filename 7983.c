@@ -1,0 +1,1 @@
+void bad() TwoIntsClass * data ; data = NULL; data = new TwoIntsClass badSink_b ( data ); void badSink_b(TwoIntsClass * data) badSink_c ( data ); void badSink_c(TwoIntsClass * data) badSink_d ( data ); void badSink_d(TwoIntsClass * data) free ( data ); 

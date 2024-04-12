@@ -1,0 +1,1 @@
+static void goodG2B2() twoIntsStruct * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = ( twoIntsStruct * ) malloc ( sizeof ( * data ) ); data -> intOne = 1; data -> intTwo = 2; free ( data ); 

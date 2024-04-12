@@ -1,0 +1,1 @@
+static void goodB2G2() twoIntsStruct * data ; data = NULL; data = ( twoIntsStruct * ) realloc ( data , 100 * sizeof ( twoIntsStruct ) ); data [ 0 ] . intOne = 0; data [ 0 ] . intTwo = 0; goodB2G2Sink ( data ); static void goodB2G2Sink(twoIntsStruct * data) if ( goodB2G2Static )  free ( data ); 

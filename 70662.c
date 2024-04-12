@@ -1,0 +1,1 @@
+static void goodB2G2() twoIntsStruct * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( twoIntsStruct * ) malloc ( 100 * sizeof ( twoIntsStruct ) ); size_t i ; for(i = 0; i < 100; i++) data [ i ] . intOne = 1; data [ i ] . intTwo = 2; free ( data ); 

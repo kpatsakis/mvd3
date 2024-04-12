@@ -1,0 +1,1 @@
+void CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_21_bad() char * password ; password = ""; password = badSource ( password ); static char * badSource(char * password) if ( badStatic )  password = ( char * ) malloc ( 100 * sizeof ( char ) ); strcpy ( password , "Password1234!" ); return password ; free ( password ); 

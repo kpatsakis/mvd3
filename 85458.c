@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; strcpy ( data , "C:\\Windows\\System32\\winsrv.dll" ); baseObject -> action ( data ); void CWE114_Process_Control__w32_char_connect_socket_82_goodG2B::action(char * data) hModule = LoadLibraryA ( data ); if ( hModule != NULL )  FreeLibrary ( hModule ); 

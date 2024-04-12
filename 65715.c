@@ -1,0 +1,1 @@
+static void good2() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; char inputBuffer [ CHAR_ARRAY_SIZE ] ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  doubleNumber = atof ( inputBuffer ); if ( doubleNumber < 0 )  printIntLine ( ( int ) ( sqrt ( doubleNumber ) ) ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_21_bad() wchar_t * data ; data = NULL; data = badSource ( data ); static wchar_t * badSource(wchar_t * data) if ( badStatic )  data = ( wchar_t * ) malloc ( 50 * sizeof ( wchar_t ) ); data [ 0 ] = L '\0' return data ; free ( data ); 

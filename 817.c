@@ -1,0 +1,1 @@
+int ff_hex_to_data(uint8_t *data,const char *p) int c ; p += strspn ( p , " \t\r\n" ); if ( ( * p ) == '\0' )  c = av_toupper ( ( ( unsigned char ) ( * ( p ++ ) ) ) ); if ( c >= 48 && c <= '9' )  c = c - 48; if ( c >= 'A' && c <= 'F' )  c = c - 'A' + '\n'; v = v << 4 | c; if ( v & 0x0100 )  data [ len ] = v; len ++; return len ; 

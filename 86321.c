@@ -1,0 +1,1 @@
+static void goodB2G1() int * data ; data = NULL; data = ( int * ) calloc ( 1 , sizeof ( int ) ); goodB2G1Sink ( data ); static void goodB2G1Sink(int * data) if ( goodB2G1Static )  if ( data != NULL )  data [ 0 ] = 5; free ( data ); 

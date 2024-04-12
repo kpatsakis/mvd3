@@ -1,0 +1,1 @@
+static void goodG2B2() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; strcpy ( data , "fixedstringtest" ); if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; fprintf ( stdout , data ); 

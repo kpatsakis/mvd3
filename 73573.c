@@ -1,0 +1,1 @@
+void scsi_req_cancel_async(SCSIRequest *req, Notifier *notifier) if ( req -> io_canceled )  scsi_req_dequeue ( req ); static void scsi_req_dequeue(SCSIRequest *req) req -> retry = false; if ( req -> enqueued )  req -> enqueued = false; scsi_req_unref ( req ); void scsi_req_unref(SCSIRequest *req) assert ( req -> refcount > 0 ); 

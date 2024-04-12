@@ -1,0 +1,1 @@
+static void goodB2G() int64_t * data ; int64_t * dataArray [ 5 ] ; data = NULL; data = ( int64_t * ) calloc ( 100 , sizeof ( int64_t ) ); data [ 0 ] = 5L L dataArray [ 2 ] = data; CWE401_Memory_Leak__int64_t_calloc_66b_goodB2GSink ( dataArray ); void CWE401_Memory_Leak__int64_t_calloc_66b_goodB2GSink(int64_t * dataArray[]) int64_t * data = dataArray [ 2 ] ; free ( data ); 

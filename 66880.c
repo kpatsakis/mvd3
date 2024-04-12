@@ -1,0 +1,1 @@
+static void goodB2G1() char * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; char myString [ ] = "myString" ; data = strdup ( myString ); if ( staticReturnsFalse ( ) )  static int staticReturnsFalse() return 0 ; free ( data ); 

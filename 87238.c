@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; data = NULL; data = new char [ 100 ]; strcpy ( data , "A String" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); goodB2GSink ( data ); static void goodB2GSink(char * data) delete [ ] data 

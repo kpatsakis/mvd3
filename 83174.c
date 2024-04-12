@@ -1,0 +1,1 @@
+static void scsi_target_read_data(SCSIRequest *req) SCSITargetReq * r = DO_UPCAST ( SCSITargetReq , req , req ) ; uint32_t n ; n = r -> len; if ( n > 0 )  r -> len = 0; scsi_req_data ( & r -> req , n ); void scsi_req_data(SCSIRequest *req, int len) if ( req -> io_canceled )  assert ( req -> cmd . mode != SCSI_XFER_NONE ); 

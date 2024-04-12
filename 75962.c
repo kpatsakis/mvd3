@@ -1,0 +1,1 @@
+void bad() int64_t * data ; map < int , int64_t * > dataMap ; data = NULL; int64_t dataBuffer [ 100 ] ; size_t i ; for (i = 0; i < 100; i++) dataBuffer [ i ] = 5L L data = dataBuffer; dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; badSink ( dataMap ); void badSink(map<int, int64_t *> dataMap) int64_t * data = dataMap [ 2 ] ; free ( data ); 

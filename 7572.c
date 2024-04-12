@@ -1,0 +1,1 @@
+static int file_puts(BIO *bp,const char *str) int n ; int ret ; n = ( strlen ( str ) ); ret = file_write ( bp , str , n ); static int file_write(BIO *b,const char *in,int inl) if ( b -> init && in != ( ( void * ) 0 ) )  if ( b -> flags & 0 )  ret = ( fwrite ( in , ( ( int ) inl ) , 1 , ( b -> ptr ) ) ); if ( ret )  return ret ; 

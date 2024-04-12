@@ -1,0 +1,1 @@
+static void goodB2G() FILE * data ; FILE * dataArray [ 5 ] ; data = NULL; data = _wfopen ( L "file.txt" , L "w+" ) dataArray [ 2 ] = data; CWE690_NULL_Deref_From_Return__w32_wfopen_66b_goodB2GSink ( dataArray ); void CWE690_NULL_Deref_From_Return__w32_wfopen_66b_goodB2GSink(FILE * dataArray[]) FILE * data = dataArray [ 2 ] ; if ( data != NULL )  fclose ( data ); 

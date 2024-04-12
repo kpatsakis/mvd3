@@ -1,0 +1,1 @@
+static void goodB2G1() struct _twoIntsStruct * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = ( struct _twoIntsStruct * ) malloc ( 100 * sizeof ( struct _twoIntsStruct ) ); data [ 0 ] . intOne = 0; data [ 0 ] . intTwo = 0; if ( globalReturnsFalse ( ) )  int globalReturnsFalse() return 0 ; free ( data ); 

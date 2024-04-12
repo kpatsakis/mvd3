@@ -1,0 +1,1 @@
+void CWE467_Use_of_sizeof_on_Pointer_Type__int_16_bad() while ( 1 )  badInt = ( int * ) malloc ( sizeof ( badInt ) ); * badInt = 5; printIntLine ( * badInt ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( badInt ); 

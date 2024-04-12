@@ -1,0 +1,1 @@
+void bad() int count ; int & countRef = count ; count = - 1; count = RAND32 ( ); int count = countRef ; const char * filename = "output_bad.txt" ; pFile = fopen ( filename , "w+" ); for (i = 0; i < (size_t)count; i++) if ( strlen ( SENTENCE ) != fwrite ( SENTENCE , sizeof ( char ) , strlen ( SENTENCE ) , pFile ) )  

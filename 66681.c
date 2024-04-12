@@ -1,0 +1,1 @@
+static void good1() int k ; for(k = 0; k < 1; k++) wchar_t * password = ( wchar_t * ) ALLOCA ( 100 * sizeof ( wchar_t ) ) ; password [ 0 ] = L '\0' if ( fgetws ( password , 100 , stdin ) == NULL )  password [ 0 ] = L '\0' passwordLen = wcslen ( password ); if ( passwordLen > 0 )  SecureZeroMemory ( password , passwordLen * sizeof ( wchar_t ) ); 

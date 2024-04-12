@@ -1,0 +1,1 @@
+static void goodG2B2() if ( staticTrue )  long * dataBuffer = ( long * ) malloc ( 100 * sizeof ( long ) ) ; if ( dataBuffer == NULL )  dataBuffer [ i ] = 5L; data = dataBuffer; printLongLine ( data [ 0 ] ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); free ( data ); 

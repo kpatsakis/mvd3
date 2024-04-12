@@ -1,0 +1,1 @@
+void CWE126_Buffer_Overread__malloc_char_memmove_08_bad() char * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( char * ) malloc ( 50 * sizeof ( char ) ); memset ( data , 'A' , 50 - 1 ); data [ 50 - 1 ] = '\0'; free ( data ); 

@@ -1,0 +1,1 @@
+static void goodG2B2() size_t data ; data = 0; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = 20; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; if ( data > wcslen ( HELLO_STRING ) )  

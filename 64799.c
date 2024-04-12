@@ -1,0 +1,1 @@
+static void goodB2G1() int * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( int * ) calloc ( 100 , sizeof ( int ) ); if ( staticReturnsFalse ( ) )  static int staticReturnsFalse() return 0 ; free ( data ); 

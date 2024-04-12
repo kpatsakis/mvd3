@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_34_unionType myUnion ; char dataBuffer [ 100 ] ; data = dataBuffer; memset ( data , 'A' , 50 - 1 ); data [ 50 - 1 ] = '\0'; myUnion . unionFirst = data; char * data = myUnion . unionSecond ; char dest [ 50 ] = "" ; strcat ( dest , data ); 

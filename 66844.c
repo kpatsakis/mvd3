@@ -1,0 +1,1 @@
+static void goodG2B() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; int * dataBuffer = ( int * ) malloc ( 100 * sizeof ( int ) ) ; if ( dataBuffer == NULL )  dataBuffer [ i ] = 5; data = dataBuffer; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

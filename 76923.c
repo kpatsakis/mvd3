@@ -1,0 +1,1 @@
+static void goodG2B() wchar_t * data ; data = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); baseObject -> action ( data ); void CWE126_Buffer_Overread__malloc_wchar_t_loop_82_goodG2B::action(wchar_t * data) dest [ i ] = data [ i ]; printWLine ( dest ); void printWLine (const wchar_t * line) if ( line != NULL )  wprintf ( L "%ls\n" , line ) free ( data ); 

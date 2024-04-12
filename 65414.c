@@ -1,0 +1,1 @@
+static void goodB2G1() char * data ; data = NULL; data = ( char * ) malloc ( 20 * sizeof ( char ) ); goodB2G1Sink ( data ); static void goodB2G1Sink(char * data) if ( goodB2G1Static )  if ( data != NULL )  strcpy ( data , "Initialize" ); free ( data ); 

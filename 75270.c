@@ -1,0 +1,1 @@
+void bad() long * data ; data = ( long * ) calloc ( 100 , sizeof ( long ) ); badSink_b ( data ); void badSink_b(long * data) badSink_c ( data ); void badSink_c(long * data) badSink_d ( data ); void badSink_d(long * data) badSink_e ( data ); void badSink_e(long * data) delete data 

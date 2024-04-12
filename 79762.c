@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; char * dataArray [ 5 ] ; data = NULL; data = ( char * ) realloc ( data , 100 * sizeof ( char ) ); strcpy ( data , "A String" ); dataArray [ 2 ] = data; CWE401_Memory_Leak__char_realloc_66b_goodB2GSink ( dataArray ); void CWE401_Memory_Leak__char_realloc_66b_goodB2GSink(char * dataArray[]) char * data = dataArray [ 2 ] ; free ( data ); 

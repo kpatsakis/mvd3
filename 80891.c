@@ -1,0 +1,1 @@
+static void goodB2G() twoIntsStruct * data ; twoIntsStruct * dataArray [ 5 ] ; data = NULL; data = ( twoIntsStruct * ) malloc ( 100 * sizeof ( twoIntsStruct ) ); dataArray [ 2 ] = data; goodB2GSink ( dataArray ); void goodB2GSink(twoIntsStruct * dataArray[]) twoIntsStruct * data = dataArray [ 2 ] ; free ( data ); 

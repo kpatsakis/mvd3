@@ -1,0 +1,1 @@
+static void goodG2B2() int * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( int * ) malloc ( 10 * sizeof ( int ) ); int source [ 10 ] = { 0 } ; memmove ( data , source , 10 * sizeof ( int ) ); free ( data ); 

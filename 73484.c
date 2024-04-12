@@ -1,0 +1,1 @@
+void CWE126_Buffer_Overread__malloc_char_loop_61_bad() char * data ; data = NULL; data = CWE126_Buffer_Overread__malloc_char_loop_61b_badSource ( data ); char * CWE126_Buffer_Overread__malloc_char_loop_61b_badSource(char * data) data = ( char * ) malloc ( 50 * sizeof ( char ) ); memset ( data , 'A' , 50 - 1 ); data [ 50 - 1 ] = '\0'; return data ; free ( data ); 

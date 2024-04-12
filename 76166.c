@@ -1,0 +1,1 @@
+static void good1() if ( staticReturnsFalse ( ) )  static int staticReturnsFalse() return 0 ; DWORD payloadLen = strlen ( PAYLOAD ) ; memcpy ( payload , PAYLOAD , payloadLen ); printBytesLine ( ( BYTE * ) payload , payloadLen ); void printBytesLine(const unsigned char * bytes, size_t numBytes) for (i = 0; i < numBytes; ++i) printf ( "%02x" , bytes [ i ] ); 

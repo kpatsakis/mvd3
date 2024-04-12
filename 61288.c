@@ -1,0 +1,1 @@
+int color(u_short mode,char *name,bool orphan,bool islink) if ( orphan )  if ( islink )  if ( missing_flgs )  if ( orphan_flgs )  switch ( mode & 0170000 )  if ( mode & 04000 && suid_flgs )  if ( mode & 02000 && sgid_flgs )  if ( ! exec_flgs )  if ( mode & ( 0100 | 0100 >> 3 | 0100 >> 3 >> 3 ) )  fprintf ( outfile , "%s%s%s" , leftcode , exec_flgs , rightcode ); 

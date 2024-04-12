@@ -1,0 +1,1 @@
+void CWE401_Memory_Leak__char_calloc_04_bad() char * data ; data = NULL; if ( STATIC_CONST_TRUE )  data = ( char * ) calloc ( 100 , sizeof ( char ) ); strcpy ( data , "A String" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); 

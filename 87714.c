@@ -1,0 +1,1 @@
+ const sp<MetaData> const sp<DataSource> int32_t const sp<SampleTable> Vector<SidxEntry> MPEG4Extractor::TrackExtends &trackExtends) uint32_t keytype ; const void * key ; size_t keysize ; if ( mFormat -> findData ( kKeyCryptoKey , & keytype , & key , & keysize ) )  memset ( mCryptoKey , 0 , 16 ); memcpy ( mCryptoKey , key , keysize ); 

@@ -1,0 +1,1 @@
+static void goodB2G() int * data ; data = NULL; data = ( int * ) malloc ( 1 * sizeof ( int ) ); CWE690_NULL_Deref_From_Return__int_malloc_64b_goodB2GSink ( & data ); void CWE690_NULL_Deref_From_Return__int_malloc_64b_goodB2GSink(void * dataVoidPtr) int * * dataPtr = ( int * * ) dataVoidPtr ; int * data = ( * dataPtr ) ; if ( data != NULL )  data [ 0 ] = 5; free ( data ); 

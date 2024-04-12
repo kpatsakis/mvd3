@@ -1,0 +1,1 @@
+void bad() wchar_t * data ; structType myStruct ; data = NULL; data = new wchar_t myStruct . structFirst = data; badSink ( myStruct ); void badSink(structType myStruct) wchar_t * data = myStruct . structFirst ; free ( data ); 

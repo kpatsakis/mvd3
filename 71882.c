@@ -1,0 +1,1 @@
+static void goodB2G2() size_t data ; data = 0; data = rand ( ); goodB2G2Sink ( data ); static void goodB2G2Sink(size_t data) if ( goodB2G2Static )  char * myString ; if ( data > strlen ( HELLO_STRING ) && data < 100 )  myString = ( char * ) malloc ( data * sizeof ( char ) ); strcpy ( myString , HELLO_STRING ); free ( myString ); 

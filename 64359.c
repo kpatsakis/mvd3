@@ -1,0 +1,1 @@
+void uninit_pointer_013 () int * * ptr = ( int * * ) malloc ( 3 * sizeof ( int * ) ) ; int i , j ; for(i=0;i<3;i++) ptr [ i ] = ( int * ) malloc ( 3 * sizeof ( int ) ); int arr [ 3 ] [ 3 ] = 1 , 2 , 3 11 , 12 , 13 21 , 22 , 23 for(i=0;i<3;i++) for(j=0;j<3;j++) * ( * ( ptr + i ) + j ) = arr [ i ] [ j ]; ptr [ i ] = NULL; free ( ptr ); 

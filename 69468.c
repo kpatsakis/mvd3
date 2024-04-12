@@ -1,0 +1,1 @@
+static void goodG2B2() wchar_t * data ; wchar_t dataBuffer [ FILENAME_MAX ] = L "" data = dataBuffer; data = goodG2B2Source ( data ); wchar_t * goodG2B2Source(wchar_t * data) return data ; FILE * pFile = NULL ; pFile = FOPEN ( data , L "wb+" ) if ( pFile != NULL )  fclose ( pFile ); 

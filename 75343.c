@@ -1,0 +1,1 @@
+static void goodB2G() FILE * data ; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = fopen ( "GoodSink_fopen.txt" , "w+" ); if ( data != NULL )  fclose ( data ); if ( data != NULL )  fclose ( data ); if ( data != NULL )  fclose ( data ); 

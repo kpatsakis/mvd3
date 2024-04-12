@@ -1,0 +1,1 @@
+void CWE427_Uncontrolled_Search_Path_Element__char_environment_09_bad() char * data ; char dataBuffer [ 250 ] = "PATH=" ; data = dataBuffer; if ( GLOBAL_CONST_TRUE )  size_t dataLen = strlen ( data ) ; char * environment = GETENV ( ENV_VARIABLE ) ; if ( environment != NULL )  strncat ( data + dataLen , environment , 250 - dataLen - 1 ); PUTENV ( data ); 

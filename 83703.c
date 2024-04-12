@@ -1,0 +1,1 @@
+static void goodB2G2() FILE * data ; data = NULL; data = fopen ( "BadSource_fopen.txt" , "w+" ); if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = fopen ( "GoodSink_fopen.txt" , "w+" ); if ( data != NULL )  fclose ( data ); 

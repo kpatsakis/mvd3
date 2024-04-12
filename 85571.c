@@ -1,0 +1,1 @@
+int cmdutils_read_file(const char *filename,char **bufptr,size_t *size) int ret ; FILE * f = fopen ( filename , "rb" ) ; if ( ! f )  * size = ( ftell ( f ) ); if ( * size == ( ( size_t ) ( - 1 ) ) )  * bufptr = ( av_malloc ( * size + 1 ) ); if ( ! ( * bufptr ) )  ret = ( fread ( ( * bufptr ) , 1 , * size , f ) ); if ( ret < * size )  return ret ; 

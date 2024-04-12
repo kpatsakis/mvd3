@@ -1,0 +1,1 @@
+cgiEnvironmentResultType cgiReadEnvironment(char *filename) FILE * in ; char * version ; in = fopen ( filename , "rb" ); if ( ! in )  if ( ! cgiReadString ( in , & version ) )  static int cgiReadString(FILE *in, char **s) int len ; if ( ! cgiReadInt ( in , & len ) )  static int cgiReadInt(FILE *out, int *i) if ( ! fread ( i , sizeof ( int ) , 1 , out ) )  

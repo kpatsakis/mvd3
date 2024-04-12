@@ -1,0 +1,1 @@
+void CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_snprintf_17_bad() int i ; char * data ; char * dataBuffer = ( char * ) ALLOCA ( 100 * sizeof ( char ) ) ; data = dataBuffer; for(i = 0; i < 1; i++) memset ( data , 'A' , 100 - 1 ); data [ 100 - 1 ] = '\0'; char dest [ 50 ] = "" ; SNPRINTF ( dest , strlen ( data ) , "%s" , data ); 

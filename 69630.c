@@ -1,0 +1,1 @@
+void CWE197_Numeric_Truncation_Error__int_fgets_to_short_17_bad() int i ; for(i = 0; i < 1; i++) char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = atoi ( inputBuffer ); short shortData = ( short ) data ; printShortLine ( shortData ); void printShortLine (short shortNumber) printf ( "%hd\n" , shortNumber ); 

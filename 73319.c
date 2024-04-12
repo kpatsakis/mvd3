@@ -1,0 +1,1 @@
+static void goodB2G2() int count ; count = - 1; goodB2G2Sink ( count ); static void goodB2G2Sink(int count) if ( goodB2G2Static )  const char * filename = "output_good.txt" ; if ( count > 0 && count <= 20 )  pFile = fopen ( filename , "w+" ); if ( pFile )  fclose ( pFile ); 

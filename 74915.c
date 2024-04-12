@@ -1,0 +1,1 @@
+static void goodB2G1() size_t data ; data = 0; char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = strtoul ( inputBuffer , NULL , 0 ); goodB2G1Sink ( data ); static void goodB2G1Sink(size_t data) if ( goodB2G1Static )  if ( data > strlen ( HELLO_STRING ) && data < 100 )  

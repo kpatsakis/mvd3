@@ -1,0 +1,1 @@
+void bad() char * data ; data = NULL; data = new char [ 10 ]; badSink_b ( data ); void badSink_b(char * data) badSink_c ( data ); void badSink_c(char * data) char source [ 10 + 1 ] = SRC_STRING ; strncpy ( data , source , strlen ( source ) + 1 ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); delete [ ] data 

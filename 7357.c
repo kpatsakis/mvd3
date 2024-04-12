@@ -1,0 +1,1 @@
+void CWE327_Use_Broken_Crypto__w32_RC5_04_bad() if ( STATIC_CONST_TRUE )  char password [ 100 ] ; size_t passwordLen ; if ( fgets ( password , 100 , stdin ) == NULL )  password [ 0 ] = '\0'; passwordLen = strlen ( password ); if ( passwordLen > 0 )  password [ passwordLen - 1 ] = '\0'; if ( ! CryptHashData ( hHash , ( BYTE * ) password , passwordLen , 0 ) )  

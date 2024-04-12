@@ -1,0 +1,1 @@
+static void goodB2G2() void * data ; data = NULL; switch ( 6 )  data = ( void * ) WIDE_STRING; switch ( 7 )  size_t dataLen = wcslen ( ( wchar_t * ) data ) ; void * dest = ( void * ) calloc ( dataLen + 1 , sizeof ( wchar_t ) ) ; memcpy ( dest , data , ( dataLen + 1 ) * sizeof ( wchar_t ) ); free ( dest ); 

@@ -1,0 +1,1 @@
+static void good2() if ( 1 )  char * filename ; char tmpl [ ] = "goodXXXXXX" ; FILE * pFile ; filename = MKTEMP ( tmpl ); if ( filename != NULL )  pFile = FOPEN ( filename , "w" ); if ( pFile != NULL )  fprintf ( pFile , "Temporary file" ); fclose ( pFile ); 

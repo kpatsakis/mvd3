@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_31_bad() int * data ; data = ( int * ) malloc ( 50 * sizeof ( int ) ); int * dataCopy = data ; int * data = dataCopy ; data [ i ] = source [ i ]; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

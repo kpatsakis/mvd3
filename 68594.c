@@ -1,0 +1,1 @@
+static void goodG2B2() long * data ; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = ( long * ) malloc ( 100 * sizeof ( long ) ); data [ i ] = 5L; printLongLine ( data [ 0 ] ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); 

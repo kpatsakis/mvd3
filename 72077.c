@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__int_calloc_64_bad() int * data ; data = NULL; data = ( int * ) calloc ( 1 , sizeof ( int ) ); CWE690_NULL_Deref_From_Return__int_calloc_64b_badSink ( & data ); void CWE690_NULL_Deref_From_Return__int_calloc_64b_badSink(void * dataVoidPtr) int * * dataPtr = ( int * * ) dataVoidPtr ; int * data = ( * dataPtr ) ; data [ 0 ] = 5; free ( data ); 

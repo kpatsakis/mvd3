@@ -1,0 +1,1 @@
+void dfafree(struct dfa *d) if ( d -> mb_cur_max > 1 )  free_mbdata ( d ); static void free_mbdata(struct dfa *d) size_t i ; d -> multibyte_prop = ( ( void * ) 0 ); for (i = 0; i < d -> nmbcsets; ++i) size_t j ; struct mb_char_classes * p = & d -> mbcsets [ i ] ; for (j = 0; j < p -> nequivs; ++j) free ( p -> equivs [ j ] ); 

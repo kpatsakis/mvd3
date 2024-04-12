@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; data = ( char * ) malloc ( 100 * sizeof ( char ) ); data = goodG2BSource ( data ); static char * goodG2BSource(char * data) memset ( data , 'A' , 50 - 1 ); data [ 50 - 1 ] = '\0'; return data ; size_t i , dataLen ; dataLen = strlen ( data ); for (i = 0; i < dataLen; i++) 

@@ -1,0 +1,1 @@
+static void goodB2G() wchar_t * data ; structType myStruct ; data = NULL; wchar_t myString [ ] = L "myString" data = wcsdup ( myString ); myStruct . structFirst = data; goodB2GSink ( myStruct ); void goodB2GSink(structType myStruct) wchar_t * data = myStruct . structFirst ; free ( data ); 

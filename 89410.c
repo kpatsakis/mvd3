@@ -1,0 +1,1 @@
+void CWE590_Free_Memory_Not_on_Heap__free_long_static_31_bad() long * data ; data = NULL; static long dataBuffer [ 100 ] ; size_t i ; for (i = 0; i < 100; i++) dataBuffer [ i ] = 5L; data = dataBuffer; long * dataCopy = data ; long * data = dataCopy ; free ( data ); 

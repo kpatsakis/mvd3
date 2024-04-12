@@ -1,0 +1,1 @@
+void CWE78_OS_Command_Injection__char_listen_socket_popen_12_bad() char * data ; char data_buf [ 100 ] = FULL_COMMAND ; data = data_buf; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; strcat ( data , "*.*" ); pipe = POPEN ( data , "wb" ); if ( pipe != NULL )  PCLOSE ( pipe ); 

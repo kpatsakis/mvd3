@@ -1,0 +1,1 @@
+static void goodB2G1() char * data ; data = NULL; data = ( char * ) realloc ( data , 20 * sizeof ( char ) ); if ( staticReturnsFalse ( ) )  static int staticReturnsFalse() return 0 ; if ( data != NULL )  strcpy ( data , "Initialize" ); free ( data ); 

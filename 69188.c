@@ -1,0 +1,1 @@
+static void good2() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; char * goodChar = NULL ; goodChar = ( char * ) malloc ( sizeof ( * goodChar ) ); * goodChar = 'G'; printHexCharLine ( * goodChar ); void printHexCharLine (char charHex) printf ( "%02x\n" , charHex ); free ( goodChar ); 

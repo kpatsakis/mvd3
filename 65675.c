@@ -1,0 +1,1 @@
+void bad() int i , j ; size_t data ; data = 0; for(i = 0; i < 1; i++) char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = strtoul ( inputBuffer , NULL , 0 ); for(j = 0; j < 1; j++) if ( data > wcslen ( HELLO_STRING ) )  

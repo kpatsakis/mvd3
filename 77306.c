@@ -1,0 +1,1 @@
+void bad() char * data ; data = ( char * ) malloc ( 100 * sizeof ( char ) ); badSource ( data ); void badSource(char * &data) memset ( data , 'A' , 100 - 1 ); data [ 100 - 1 ] = '\0'; strcpy ( dest , data ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

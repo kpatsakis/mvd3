@@ -1,0 +1,1 @@
+static int CVE_2010_3876_VULN_packet_getname_spkt(struct socket *sock, struct sockaddr int *uaddr_len, int peer) struct net_device * dev ; struct sock * sk = sock -> sk ; if ( peer )  uaddr -> sa_family = AF_PACKET; dev = dev_get_by_index_rcu ( sock_net ( sk ) , pkt_sk ( sk ) -> ifindex ); if ( dev )  memset ( uaddr -> sa_data , 0 , 14 ); * uaddr_len = sizeof ( * uaddr ); 

@@ -1,0 +1,1 @@
+void bad() wchar_t * data ; data = new wchar_t [ 100 ]; data = badSource ( data ); wchar_t * badSource(wchar_t * data) wmemset ( data , L 'A' , 100 - 1 data [ 100 - 1 ] = L '\0' return data ; size_t i , dataLen ; dataLen = wcslen ( data ); for (i = 0; i < dataLen; i++) 

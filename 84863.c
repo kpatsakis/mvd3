@@ -1,0 +1,1 @@
+void bad() char * data ; data = NULL; data = NULL; data = ( char * ) realloc ( data , 100 * sizeof ( char ) ); badSink_b ( data ); void badSink_b(char * data) badSink_c ( data ); void badSink_c(char * data) delete [ ] data 

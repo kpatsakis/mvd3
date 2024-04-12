@@ -1,0 +1,1 @@
+static int CVE_2013_4264_VULN_kempf_decode_tile(G2MContext *c, int tile_x, int const uint8_t *src, int src_size) uint8_t pal [ 768 ] , transp [ 3 ] ; int sub_type ; if ( src_size < 2 )  hdr = * src ++; sub_type = hdr >> 5; if ( sub_type == 0 )  memcpy ( transp , src , 3 ); memcpy ( dst + i * 3 , transp , 3 ); 

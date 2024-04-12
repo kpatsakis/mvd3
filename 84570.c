@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; data = NULL; data = goodB2GSource ( data ); static char * goodB2GSource(char * data) data = ( char * ) calloc ( 20 , sizeof ( char ) ); return data ; if ( data != NULL )  strcpy ( data , "Initialize" ); free ( data ); 

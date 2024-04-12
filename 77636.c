@@ -1,0 +1,1 @@
+static void goodG2B() int data ; data = - 1; data = goodG2BSource ( data ); static int goodG2BSource(int data) data = 100 - 1; return data ; if ( data < 100 )  char * dataBuffer = ( char * ) malloc ( data ) ; memset ( dataBuffer , 'A' , data - 1 ); dataBuffer [ data - 1 ] = '\0'; free ( dataBuffer ); 

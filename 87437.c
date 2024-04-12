@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_17_bad() int i ; char * data ; data = NULL; for(i = 0; i < 1; i++) data = ( char * ) malloc ( 10 * sizeof ( char ) ); char source [ 10 + 1 ] = SRC_STRING ; size_t i , sourceLen ; sourceLen = strlen ( source ); for (i = 0; i < sourceLen + 1; i++) data [ i ] = source [ i ]; free ( data ); 

@@ -1,0 +1,1 @@
+static void goodB2G2() int64_t * data ; data = ( int64_t * ) malloc ( 1 * sizeof ( int64_t ) ); goodB2G2Sink ( data ); static void goodB2G2Sink(int64_t * data) if ( data != NULL )  data [ 0 ] = 5L L printLongLongLine ( data [ 0 ] ); void printLongLongLine (int64_t longLongIntNumber) printf ( "%lld\n" , longLongIntNumber ); free ( data ); 
